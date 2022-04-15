@@ -16,7 +16,7 @@ function App() {
    
     
     // https://realtimesignlanguagedetection.s3.us-east.cloud-object-storage.appdomain.cloud/model.json
-    const net = await tf.loadGraphModel('https://realtimesignlanguagedetection.s3.us-east.cloud-object-storage.appdomain.cloud/model.json')
+    const net = await tf.loadGraphModel('https://tensorflowjsrealtimemodel.s3.au-syd.cloud-object-storage.appdomain.cloud/model.json')
     
     //  Loop and detect hands
     setInterval(() => {
